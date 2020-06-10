@@ -1,4 +1,4 @@
-# FCND - Backyard Flyer Project
+#  Flying Car Project
 In this project, you'll set up a state machine using event-driven programming to autonomously flying a drone. You will be using flying a quadcopter in Unity simulator. After completing this assignment, you'll be familiar with sending commands and receiving incoming data from the drone. 
 
 The python code you write is similar to how the drone would be controlled from a ground station computer or an onboard flight computer. Since communication with the drone is done using MAVLink, you will be able to use your code to control an PX4 quadcopter autopilot with very little modification!
@@ -13,13 +13,6 @@ If you haven't already, set up your Python environment and get all the relevant 
 ```sh
 git clone https://github.com/udacity/FCND-Backyard-Flyer
 ```
-
-## Task
-The required task is to command the drone to fly a 10 meter box at a 3 meter altitude. You'll fly this path in two ways: first using manual control and then under autonomous control.
-
-Manual control of the drone is done using the instructions found with the simulator.
-
-Autonomous control will be done using an event-driven state machine. First, you will need to fill in the appropriate callbacks. Each callback will check against transition criteria dependent on the current state. If the transition criteria are met, it will transition to the next state and pass along any required commands to the drone.
 
 ## Drone API
 
@@ -207,9 +200,6 @@ def global_to_local(global_position, global_home):
 
 
 
-## Submission Requirements
-
-* Filled in backyard_flyer.py
 
 
 
