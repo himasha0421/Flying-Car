@@ -44,8 +44,11 @@ You should see the quad fly a jerky path of waypoints to the northeast for about
 Your planning algorithm is going to look something like the following:
 
 Grid based representation of the world given as a .csv file.
+
 intiate the starting and goal locations inside the grid.
+
 A* algorithm to operate on the searching from start to goal.
+
 use path cleaning method to reduce the unwanted stopppings along the path.
 
 
